@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e56d3f69924046d881d39b4e8b37e0f3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e56d3f69924046d881d39b4e8b37e0f3" ></div>
+        
+</body>
+<script>    
+    
+            var map_e56d3f69924046d881d39b4e8b37e0f3 = L.map(
+                "map_e56d3f69924046d881d39b4e8b37e0f3",
+                {
+                    center: [37.49790901225695, 127.0276449838695],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 20,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b04f990e02174c82926b45bc7cc5fd4b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e56d3f69924046d881d39b4e8b37e0f3);
+        
+    
+            var circle_marker_97148b8282394ef68fc79869deaf9b62 = L.circleMarker(
+                [37.498925267295, 127.027602518905],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_e56d3f69924046d881d39b4e8b37e0f3);
+        
+    
+        var popup_3e1a42b10ecb424e9bffffd03aa93ab4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db47ad17e2764d7ea773254e7e80cbff = $(`<div id="html_db47ad17e2764d7ea773254e7e80cbff" style="width: 100.0%; height: 100.0%;">감성타코 강남역점</div>`)[0];
+            popup_3e1a42b10ecb424e9bffffd03aa93ab4.setContent(html_db47ad17e2764d7ea773254e7e80cbff);
+        
+
+        circle_marker_97148b8282394ef68fc79869deaf9b62.bindPopup(popup_3e1a42b10ecb424e9bffffd03aa93ab4)
+        ;
+
+        
+    
+    
+            var circle_marker_9a8f0ad4882143758ff2e37b3164aee6 = L.circleMarker(
+                [37.50282477515982, 127.0277984758753],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_e56d3f69924046d881d39b4e8b37e0f3);
+        
+    
+        var popup_5c90453d340849ef8b866e27aab16a57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7582fb6b788e4f8b91d9ee3ae62fe968 = $(`<div id="html_7582fb6b788e4f8b91d9ee3ae62fe968" style="width: 100.0%; height: 100.0%;">썸띵어바웃커피</div>`)[0];
+            popup_5c90453d340849ef8b866e27aab16a57.setContent(html_7582fb6b788e4f8b91d9ee3ae62fe968);
+        
+
+        circle_marker_9a8f0ad4882143758ff2e37b3164aee6.bindPopup(popup_5c90453d340849ef8b866e27aab16a57)
+        ;
+
+        
+    
+    
+            var circle_marker_c4222a2e6a7c48dabc39b994f0092745 = L.circleMarker(
+                [37.5122437156185, 127.019649137688],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_e56d3f69924046d881d39b4e8b37e0f3);
+        
+    
+        var popup_cd61c34805584e4995228670eade5650 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_602d25e7561e4f0c8c1215974281e83e = $(`<div id="html_602d25e7561e4f0c8c1215974281e83e" style="width: 100.0%; height: 100.0%;">진동둔횟집</div>`)[0];
+            popup_cd61c34805584e4995228670eade5650.setContent(html_602d25e7561e4f0c8c1215974281e83e);
+        
+
+        circle_marker_c4222a2e6a7c48dabc39b994f0092745.bindPopup(popup_cd61c34805584e4995228670eade5650)
+        ;
+
+        
+    
+    
+            var circle_marker_b7dc288e43124dabb3b645098eb63771 = L.circleMarker(
+                [35.8581441446257, 128.623429552357],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_e56d3f69924046d881d39b4e8b37e0f3);
+        
+    
+        var popup_7f5fd59a12fd4e308291ba34a970fc9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c99154dba704d88810b4b258041e1d2 = $(`<div id="html_0c99154dba704d88810b4b258041e1d2" style="width: 100.0%; height: 100.0%;">짐키친</div>`)[0];
+            popup_7f5fd59a12fd4e308291ba34a970fc9f.setContent(html_0c99154dba704d88810b4b258041e1d2);
+        
+
+        circle_marker_b7dc288e43124dabb3b645098eb63771.bindPopup(popup_7f5fd59a12fd4e308291ba34a970fc9f)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6d736731fa3640188f97641d732f60e3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6d736731fa3640188f97641d732f60e3" ></div>
+        
+</body>
+<script>    
+    
+            var map_6d736731fa3640188f97641d732f60e3 = L.map(
+                "map_6d736731fa3640188f97641d732f60e3",
+                {
+                    center: [37.49790901225695, 127.0276449838695],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d7f76fd647a746e9accb0148964a9ad3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6d736731fa3640188f97641d732f60e3);
+        
+    
+            var marker_cluster_8da277998bbe44d68cd3c75440c1c3bb = L.markerClusterGroup(
+                {}
+            );
+            map_6d736731fa3640188f97641d732f60e3.addLayer(marker_cluster_8da277998bbe44d68cd3c75440c1c3bb);
+        
+    
+            var marker_5956ac4e9f0646ee9024c51ef48cfc73 = L.marker(
+                [37.498925267295, 127.027602518905],
+                {}
+            ).addTo(marker_cluster_8da277998bbe44d68cd3c75440c1c3bb);
+        
+    
+        var popup_b8f4b594cf094f66a8003144ffe979a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33e2496d934645e3ae9a9bfb34ad8e71 = $(`<div id="html_33e2496d934645e3ae9a9bfb34ad8e71" style="width: 100.0%; height: 100.0%;">감성타코 강남역점</div>`)[0];
+            popup_b8f4b594cf094f66a8003144ffe979a7.setContent(html_33e2496d934645e3ae9a9bfb34ad8e71);
+        
+
+        marker_5956ac4e9f0646ee9024c51ef48cfc73.bindPopup(popup_b8f4b594cf094f66a8003144ffe979a7)
+        ;
+
+        
+    
+    
+            var marker_ac9e84f06b6948f88018d38f38eed14c = L.marker(
+                [37.50282477515982, 127.0277984758753],
+                {}
+            ).addTo(marker_cluster_8da277998bbe44d68cd3c75440c1c3bb);
+        
+    
+        var popup_6c87db79ffb543e9aa0a17eb4ef5b905 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e2e5f5062f043b38ccd9c498c7cc5e1 = $(`<div id="html_6e2e5f5062f043b38ccd9c498c7cc5e1" style="width: 100.0%; height: 100.0%;">썸띵어바웃커피</div>`)[0];
+            popup_6c87db79ffb543e9aa0a17eb4ef5b905.setContent(html_6e2e5f5062f043b38ccd9c498c7cc5e1);
+        
+
+        marker_ac9e84f06b6948f88018d38f38eed14c.bindPopup(popup_6c87db79ffb543e9aa0a17eb4ef5b905)
+        ;
+
+        
+    
+    
+            var marker_4eea5054366f4ae686d9d3145747285c = L.marker(
+                [37.5122437156185, 127.019649137688],
+                {}
+            ).addTo(marker_cluster_8da277998bbe44d68cd3c75440c1c3bb);
+        
+    
+        var popup_5f723cf7e4684179a8e15d449ed81189 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2f47b1b95e44686b0d0bf0cca39e282 = $(`<div id="html_b2f47b1b95e44686b0d0bf0cca39e282" style="width: 100.0%; height: 100.0%;">진동둔횟집</div>`)[0];
+            popup_5f723cf7e4684179a8e15d449ed81189.setContent(html_b2f47b1b95e44686b0d0bf0cca39e282);
+        
+
+        marker_4eea5054366f4ae686d9d3145747285c.bindPopup(popup_5f723cf7e4684179a8e15d449ed81189)
+        ;
+
+        
+    
+    
+            var marker_2f02b3a6384347018493297ca2eeeac0 = L.marker(
+                [35.8581441446257, 128.623429552357],
+                {}
+            ).addTo(marker_cluster_8da277998bbe44d68cd3c75440c1c3bb);
+        
+    
+        var popup_572b161898fb4451a03b9be5381568d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_265953da858b45a893f03ba481d7c6ba = $(`<div id="html_265953da858b45a893f03ba481d7c6ba" style="width: 100.0%; height: 100.0%;">짐키친</div>`)[0];
+            popup_572b161898fb4451a03b9be5381568d1.setContent(html_265953da858b45a893f03ba481d7c6ba);
+        
+
+        marker_2f02b3a6384347018493297ca2eeeac0.bindPopup(popup_572b161898fb4451a03b9be5381568d1)
+        ;
+
+        
+    
+    
+            var layer_control_a4dcdc3222c74760a950fb8338b07c49 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_d7f76fd647a746e9accb0148964a9ad3,
+                },
+                overlays :  {
+                    "Jeju" : marker_cluster_8da277998bbe44d68cd3c75440c1c3bb,
+                },
+            };
+            L.control.layers(
+                layer_control_a4dcdc3222c74760a950fb8338b07c49.base_layers,
+                layer_control_a4dcdc3222c74760a950fb8338b07c49.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_6d736731fa3640188f97641d732f60e3);
+        
+</script>
